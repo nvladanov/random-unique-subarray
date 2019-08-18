@@ -1,22 +1,31 @@
 {
   "name": "random-unique-subarray",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Get a random subarray of the specified length with unique elements",
+  "license": "MIT",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ladanovn/random-unique-subarray.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ladanov Nikolay",
+  "keywords": [
+    "unique",
+    "random",
+    "subarray",
+    "subarray",
+    "generate",
+    "non-repeating",
+    "array",
+    "item",
+    "element"
+  ],
   "bugs": {
     "url": "https://github.com/ladanovn/random-unique-subarray/issues"
   },
   "homepage": "https://github.com/ladanovn/random-unique-subarray#readme",
   "dependencies": {
-    "array-shuffle": "^1.0.1"
+    "array-shuffle": "^1.0.1",
+    "removeduplicates": "^1.1.0"
   }
 }
