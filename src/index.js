@@ -5,8 +5,12 @@ const removeDuplicates = require("removeduplicates").default;
 
 /**
  * Returns a random subarray of the specified length with unique elements
- * @param {Array} array
- * @param {Number} newArrLength
+ * @param {Array} array 
+ * @param {Number} newArrLength 
+ * @param {Boolean} options.removeDuplicates 
+ * @param {String} options.key
+ * 
+ * @returns {Array}
  */
 const uniqueSubarr = (array, newArrLength, options = {
     removeDuplicates: false,
