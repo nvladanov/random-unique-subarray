@@ -37,4 +37,37 @@ Description: Flag whether to delete the same elements in __array__
 __options.key__    
 Type: String   
 Default: undefined    
-Description: if __array__ is array of object. We can remove any duplicate values based on this key object.
+Description: if __array__ is array of object. We can remove any duplicate values based on this key object.              
+More: https://github.com/tjcafferkey/removeduplicates
+
+## Examples
+```
+const arr = [1, 2, 2]
+
+console.log(uniqueSubarr(arr, 2))
+// => [2, 2] or [1, 2]
+
+console.log(uniqueSubarr(arr, 2, {
+      removeDuplicates: true
+}))
+// => [1, 2]
+```
+
+```
+const arr = [{
+    id: 1,
+    name: 'Name1'
+}, {
+    id: 2,
+    name: 'Name2'
+}, {
+    id: 2,
+    name: 'Name2'
+}]
+
+console.log(uniqueSubarr(arr, 2, {
+    removeDuplicates: true,
+    key: 'id'
+}))
+// => [ { id: 2, name: 'Name2' }, { id: 1, name: 'Name1' } ]
+```
