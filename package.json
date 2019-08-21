@@ -1,6 +1,6 @@
 {
   "name": "random-unique-subarray",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get a random subarray of the specified length with unique elements",
   "license": "MIT",
   "main": "src/index.js",
