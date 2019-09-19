@@ -1,4 +1,5 @@
 # random-unique-subarray
+[![https://nodei.co/npm/random-unique-subarray.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/random-unique-subarray.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/random-unique-subarray)               
 Get a random subarray of the specified length with unique elements
 ## Install
 `npm install random-unique-subarray`
